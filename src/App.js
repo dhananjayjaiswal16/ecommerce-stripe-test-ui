@@ -5,15 +5,13 @@ import Success from './components/Success';
 
 const App = () => {
   return (
-    <>
-      <Router>
-        <Routes>
-          <Route exact path='/pay' element={<Pay />} />
 
-          <Route exact pay='/success' element={<Success />} />
-        </Routes>
-      </Router>
-    </>
+    <Router>
+      <Routes>
+        <Route exact path='/pay' element={<Pay />} />
+        <Route exact path='/success' element={<Success />} />
+      </Routes>
+    </Router>
   )
 }
 
