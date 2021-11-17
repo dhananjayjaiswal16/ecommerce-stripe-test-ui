@@ -28,7 +28,7 @@ const Pay = () => {
         }
         stripeToken && serverRequest();
 
-    }, [stripeToken]);
+    }, [stripeToken, navigate]);
     return (
         <div style={{
             display: "flex",
